@@ -13,5 +13,6 @@ Pod::Spec.new do |s|
   s.social_media_url = "https://twitter.com/CocoaPods"
   s.ios.deployment_target = '8.0'
   s.source_files = 'CPDAcknowledgements/**/**'
+  s.public_header_files = 'CPDAcknowledgements/private/*.h', 'CPDAcknowledgements/*.h'
   s.ios.frameworks = 'UIKit'
 end
